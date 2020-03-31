@@ -60,6 +60,12 @@ To run this project just need to install all dependencies.
 npm install
 ```
 
+I'm using react-native v0.62 so i don't need react-native link anymore because it will be automatic but for iOS we need the nex step.
+
+```
+cd ios; pod install; cd ..
+```
+
 Then run whatever platform you prefers
 
 ```
